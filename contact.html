@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us - Hospital</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="loader"></div>
+        </div>
+
+    <!-- Navbar -->
+    <div class="strip"
+        style="display: flex; justify-content: space-between; background-color: rgb(40, 39, 39); padding: 10px;">
+        <div class="vstrip1">
+            <a href="#" style="margin-left: 20px; color: white;">Envato Market</a>
+        </div>
+        <div class="vstrip2">
+            <a href="#" style="color: white;">Buy now</a>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="top">
+            <div class="row">
+                <div class="col-lg-6 col-md-7">
+                    <div class="left">
+                        <ul class="list-unstyled m-b-0">
+                            <li><a href="" class="btn btn-link" style="color: black;"><i class="fa-solid fa-envelope"
+                                        style="font-size: 14px; margin-right: 5px;"></i>info@example.com</a>
+                                <a href="" class="btn btn-link" style="color: black;"><i class="fa-solid fa-phone"
+                                        style="font-size: 14px; margin-right: 5px;"></i></i>+
+                                    202-555-0191</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5">
+                    <div class="text-right d-none d-md-block">
+                        <ul class="list-unstyled m-b-0">
+                            <li><a href="javascript:void(0);" class="btn btn-link" style="color: black;">Sign in</a>
+                                <a href="javascript:void(0);" class="btn btn-link" style="color: black;">sign
+                                    up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="hnav">
+        <a class="navbar-brand" href="index.html">Hospital</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto cnav ">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white; font-weight: 500;" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white; font-weight: 500;" href="Depaertments.html">Departments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white; font-weight: 500;" href="Doctors.html">Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white; font-weight: 500;" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- About Hospitals Section -->
+                <div class="col-md-4" style="margin-top: 30px;">
+                    <h5>About Hospitals</h5>
+                    <p>The relentless service of Hospitals in the past 25 years has brought healthcare to the highest
+                        modern standards in the region.</p>
+                </div>
+
+                <!-- Useful Links Section -->
+                <div class="col-md-4" style="margin-top: 30px;">
+                    <h5>Useful Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#doctors">Doctors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Details Section -->
+                <div class="col-md-4 footer-contact" style="margin-top: 30px;">
+                    <h5>Contact Details</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Park Drive, Varick Str NY 10012, USA</p>
+                    <p><i class="fas fa-envelope"></i> Getwell@Hospitals.com</p>
+                    <p><i class="fas fa-phone-alt"></i> (123) 0200 12345 & 7890</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>Copyright © 2018 Oreo Theme by <a href="#">Makelink innovation pvt ltd</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+      
+    <script>
+        window.addEventListener('load', function () {
+            const preloader = document.getElementById('preloader');
+            preloader.style.display = 'none';
+        });
+    </script>
+
+
+</body>
+
+</html>
